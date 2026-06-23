@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <style>
+        /* Reset default margins and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Create a full-screen flexbox container */
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f2f5; /* Soft, neutral background */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden;
+        }
+
+        /* Happy Birthday Section */
+        .birthday-section {
+            text-align: center;
+        }
+
+        /* Minimal, bold typography */
+        .birthday-text {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #1a1a1a;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+        }
+
+        /* Responsive scaling for smaller screens */
+        @media (max-width: 600px) {
+            .birthday-text {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <main class="birthday-section">
+        <h1 class="birthday-text">Happy Birthday</h1>
+    </main>
+
+</body>
+</html>
